@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #f8f8f8;
+    font-family: Raleway;
+    
+}
+section.chat_section{
+    width: 800px;
+    max-width: 90%;
+    background-color: #fff;
+    box-shadow:  0 10px 15px -3px rgba(0,0,0,0.1),o 4px 6px -2px rgba(0,0,0,0.05);
+}
+.brand h1{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #444;
+    margin-left: 10px;
+}
+.brand {
+    padding: 20px;
+    background: #f1f1f1;
+    display: flex;
+    align-items: center;   
+}
+.message_area{
+    height: 500px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* overflow-y: auto; */
+    padding-top: 40px;
+    background: beige;
+    border-bottom: 1px solid #ccc;
+
+
+}
+input{
+    width: 100%;
+    border: none;
+    padding: 20px;
+    font-size: 16px;
+    outline: none;
+    background-color: #fbfbfb;
+}
+
+.message{
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    max-width: 300px;
+    position: relative;
+}
+.in_message{
+    background-color: #8f8be8;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: auto;
+    
+
+}
+.out_message{
+    background-color:#e9eafd ;
+    color: #787986;
+    margin-left: auto;
+    /* text-align: center; */
+   
+}
+.message h4{
+    position: absolute;
+    top: -20px;
+    left: -13px;
+    color: #333;
+    font-size: 14px;
+}
+.type_message{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+
+}
+.send_btn{
+    margin: 15px 5px 15px 15px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color:#8f8be8;
+    color: white;
+    border-radius: 5px;
+}
